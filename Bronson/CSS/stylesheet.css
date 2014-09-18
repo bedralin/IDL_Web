@@ -1,0 +1,40 @@
+/* unvisited link */
+a:link {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+.bottombutton {
+    border-radius: 5px;
+    border: 2px solid #6495ED;
+    background-color: #BCD2EE;
+    height: 20px;
+    width: 185px;
+    margin: auto;
+    text-align: center;
+}
+
+#BottomButtonFont {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+}

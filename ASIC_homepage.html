@@ -1,0 +1,1266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>Instrumentation Development Lab (ID Lab) ASIC homepage</title>
+    <meta content="Prof. Varner" name="author">
+    <meta content="documentation single location" name="description">
+  </head>
+  <body style="color: rgb(0, 0, 0);" alink="#ee0000" link="#0000ee"
+    vlink="#551a8b">
+    <h1 style="font-family: helvetica,arial,sans-serif;" align="center">ID
+
+Lab
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      ASIC Development Homepage</h1>
+    <h1 style="font-family: helvetica,arial,sans-serif;" align="center"><small><small>Current
+
+update:&nbsp;
+
+
+
+
+          28-AUG-2014 </small></small><br>
+    </h1>
+    <h2 style="font-family: helvetica,arial,sans-serif;"><small><small>Fabricated
+
+ASIC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          summary table (22-APR-2011):&nbsp;&nbsp; <a
+            href="ASIC_summary.pptx">[PPT]</a></small></small></h2>
+    <p><b>TSMC 0.25um Mapping from SCN5M_DEEP to Native GDS
+        Layers&nbsp;&nbsp; <a
+          href="TSMC_SCMOS_to_native_mappingTable.xlsx">[xls]</a>&nbsp;&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <a href="TSMC_SCMOS_to_native_mappingTable.pdf">[pdf]</a><br>
+      </b></p>
+    <h2 style="font-family: helvetica,arial,sans-serif;"><small><small>QFN64A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          packaging information (16-AUG-2013):&nbsp;&nbsp;<small> <a
+              href="qfn64a_DRMO-QFN1010-005.pdf">[DRMO]</a> &nbsp;
+            &nbsp; &nbsp;</small><a href="qfn64a_DRBS-QFN1010-005.pdf"><small>[DRBS]</small><br>
+          </a></small></small></h2>
+    <h2 style="font-family: helvetica,arial,sans-serif;"><small><small>Firmware
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          Reference page:&nbsp;&nbsp; <a
+            href="Firmware/Firmware_homepage.html">[link]</a></small></small></h2>
+    <p><big><b>Multi-ASIC pre-production run (MOSIS v41k) reference
+          page&nbsp; [22-APR-2014]&nbsp;&nbsp; <a
+            href="v41_doco_page.html">[link]</a></b></big><br>
+    </p>
+    <p><big><b>"September" Engineering run (MOSIS v$$y) reference
+          page&nbsp; [16-AUG-2014]&nbsp;&nbsp; <a
+            href="vXXy_doco_page.html">[link]</a></b></big> </p>
+    <p><big><b>Harley Cumming CSA/HG2 Thesis Page: <a
+            href="./Harley_Thesis/Harley_Cumming_Thesis.html">[link]</a></b></big></p>
+    <p><big><b>Bronson Edralin micro-TCA DAQ Upgrade: <a
+            href="./Bronson/microTCA_DAQ.html">[link]</a></b></big><br>
+    </p>
+    <hr style="width: 100%; height: 2px;">
+    <h2 style="font-family: helvetica,arial,sans-serif;"><small><span
+          style="text-decoration: underline;">Quasi-chronological
+          ordering</span>:</small></h2>
+    <ol>
+      <li><big><big><a href="TARGETC/TARGETC_homepage.html">TARGETC</a>&nbsp;
+
+
+
+
+
+            <small>[CTA pre-production readout prototype -- triggering
+              separated onto CCTV ASIC]</small></big></big></li>
+      <li><big><big><a href="CSAv4/CSAv4_homepage.html">CSAv4</a>&nbsp;
+            <small>[CSA amplifier variant for future Si strip readout
+              upgrades]</small></big></big></li>
+      <li><big><big><a href="LAB4D/LAB4D_homepage.html">LAB4D</a> <small>[LABrador
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              v.4, Rev. D -- small tweaks to LAB4C, reduced
+              pin-count/external DACs to ease SURF implementation]<br>
+            </small></big></big></li>
+      <li><big><big><a href="CCTV/CCTV_homepage.html">CCTV</a>&nbsp; <small>[CTA
+
+
+
+
+
+
+              dedicated Trigger ASIC] </small></big></big></li>
+      <li><big><big><a href="HG2/HG2_homepage.html">HalfGraph_v2</a>&nbsp;
+
+
+
+
+
+
+
+
+
+            <small>[SSL Readout ASIC] </small></big></big></li>
+      <li><big><big><a href="CSAV3/CSAV3_homepage.html">CSA_v3</a>&nbsp;
+            <small>[SSL Readout amplifier ASIC] </small></big></big></li>
+      <li><big><big><a href="IRS3D/IRS3D_homepage.html">IRS3D</a>&nbsp;
+            <small>[Belle II iTOP Readout ASIC -- conservative
+              interface/backup option] </small></big></big></li>
+      <li><big><big><a href="LAB4C/LAB4C_homepage.html">LAB4C</a> <small>[LABrador
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              v.4, Rev. C -- small tweaks to LAB4B to fix DAC and
+              improve timing feedback]</small></big></big></li>
+      <li><big><big><a href="IRSX/IRSX_homepage.html">IRSX</a>&nbsp; <small>[Belle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              II iTOP Readout ASIC] </small></big></big></li>
+      <li><big><big><a href="TARGETX/TARGETX.html">TARGETX</a> <small>[TARGET
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              pre-production prototype [trigger modification only to T7
+              improvements] -- Belle II Scint KLM Readout ASIC] </small></big></big></li>
+      <li><big><big><a href="IRS3C/IRS3C_homepage.html">IRS3C</a>&nbsp;
+            <small>[Belle II iTOP Readout ASIC] </small></big></big></li>
+      <li><big><big><small><big><small><big><a
+                      href="PSEC5/PSEC5_Home.html">PSEC5 </a></big>[PicoSecond
+
+
+
+
+
+
+
+
+
+                  5]</small></big></small></big></big></li>
+      <li><big><big><a href="TARGET7/TARGET7_homepage.html">TARGET7</a>
+            <small>[</small></big></big><big><big><small><big><small>TeV
+                  gamma Array Readout, Giga-Sample/s, Electronics &amp;
+                  Trigger v.7 -- CHEC v.2</small></big>] </small></big></big></li>
+      <li><big><big><a href="TARGET6/TARGET6_homepage.html">TARGET6</a>
+            <small>[TARGET v.6 -- Belle II Scint KLM Readout ASIC] </small></big></big></li>
+      <li><big><big><a href="LAB4B/LAB4B_homepage.html">LAB4B</a> <small>[LABrador
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              v.4, Rev. B -- ANITA3 variant]</small></big></big></li>
+      <li><big><big><a href="IRS3B/IRS3B_homepage.html">IRS3B</a> <small>[Ice
+
+Radio
+
+Sampler
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              v.3 -- Rev. B] </small></big></big></li>
+      <li><big><big><a href="TARGET5/TARGET5_homepage.html">TARGET5</a>
+            <small>[TeV gamma Array Readout, Giga-Sample/s, Electronics
+              &amp; Trigger v.5 --CTA variant w/Triggering, SR final
+              timing issue fixed?] </small></big></big></li>
+      <li><big><big><a href="IRS3/IRS3_homepage.html">IRS3</a> <small>[Ice
+
+Radio
+
+Sampler
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              v.3] </small></big></big></li>
+      <li><big><big><a href="TARGET4/TARGET4_homepage.html">TARGET4</a>
+            <small>[TeV gamma Array Readout, Giga-Sample/s, Electronics
+              &amp; Trigger v.4 --KLM variant, SR problems (mostly)
+              fixed] </small></big></big></li>
+      <li><big><big><a href="RITC/RITC_homepage.html">RITC</a> <small>[Real-time
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              Independent Three-bit digitizer Chip]</small></big></big></li>
+      <li><big><big><a href="LAB4/LAB4_homepage.html">LAB4</a> <small>[LABrador
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              v.4 -- ANITA3 variant]</small></big></big></li>
+      <li><big><big><a href="BLAB3A/BLAB3A_homepage.html">BLAB3A</a> <small>[Buffered
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              LABrador v.3 -- minor Rev. A]</small></big></big></li>
+      <li><big><big><a href="SSL_amp/SSLamp_homepage.html">SSL_amp</a> <small>[1st
+
+generation
+
+CSAv1
+
+for
+
+SSL]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </small></big></big></li>
+      <li><big><big><a href="TARGET3/TARGET3_homepage.html">TARGET3</a>
+            <small>[TeV gamma Array Readout, Giga-Sample/s, Electronics
+              &amp; Trigger v.3 --KLM variant] </small></big></big></li>
+      <li><big><big><a href="TARGET2/TARGET2_homepage.html">TARGET2</a>
+            <small>[TeV gamma Array Readout, Giga-Sample/s, Electronics
+              &amp; Trigger v.2] </small></big></big></li>
+      <li><big><big><a href="STURM2/STURM2_homepage.html">STURM2</a> <small>[Sampler
+
+of
+
+Transients
+
+for
+
+the
+
+Uniformly
+
+Redundant
+
+Mask
+
+v.2]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </small><span style="color: rgb(255, 0, 0);"></span><br>
+          </big></big></li>
+      <li><big><big><a
+              href="http://www.phys.hawaii.edu/%7Evarner/BLAB3_homepage.html">BLAB3</a>
+            <small>[Buffered LABrador v.3] </small></big></big><big><big><span
+              style="color: rgb(255, 0, 0);"></span> </big></big></li>
+      <li><big><big><a href="IRS/IRS_homepage.html">IRS/IRS2</a> <small>[Ice
+
+Radio
+
+Sampler]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </small></big></big></li>
+      <li><big><big>BLAB2 <small>[</small></big></big><big><big><small>Buffered
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              LABrador v.2</small></big></big><big><big><small>] </small></big></big></li>
+      <li><big><big><a href="../STURM/STURM.html">STURM</a> <small>[Sampler
+
+of
+
+Transients
+
+for
+
+the
+
+Uniformly
+
+Redundant
+
+Mask]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </small></big></big><big><big><span style="color: rgb(51,
+              51, 255);"></span> </big></big></li>
+      <li><big><big><a href="TARGET/TARGET_homepage.html">TARGET</a> <small>[TeV
+
+gamma
+
+Array
+
+Readout,
+
+Giga-Sample/s,
+
+Electronics
+
+&amp;
+
+Trigger]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </small></big></big></li>
+      <li><big><big>LARC <small>[Lightspin Array Readout Chip] </small></big></big></li>
+      <li><big><big>BLAB <small>[</small></big></big><big><big><small>Buffered
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              LABrador</small></big></big><big><big><small>]</small></big></big></li>
+      <li><big><big>LAB3 <small>[</small></big></big><big><big><small>Large
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              Analog Bandwidth Readout And Digitizer with Ordered
+              Readout</small></big></big><big><big><small>]</small></big></big></li>
+    </ol>
+    <br>
+    <dd style="font-family: helvetica,arial,sans-serif;"><br>
+    </dd>
+    <hr style="font-family: helvetica,arial,sans-serif;"><a
+href="http://www.phys.hawaii.edu/%7Eidlab/taskAndSchedule/IDL_taskAndSchedule.html">Return
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      to scheduling page</a><span style="font-family:
+      helvetica,arial,sans-serif;"></span><span style="font-family:
+      helvetica,arial,sans-serif;"></span>
+    <hr style="font-family: helvetica,arial,sans-serif;">
+    <h2 style="font-family: helvetica,arial,sans-serif;"><span
+        style="text-decoration: underline;">Useful links</span>:</h2>
+    <ol>
+      <li>
+        <h2 style="font-family: helvetica,arial,sans-serif;"><small>Overview
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            talk (PNNL - Jan 2011):&nbsp; <a
+href="file:///C:/IDL/WWW/taskAndSchedule/ASIC/PNNL_astroPartASICs_Varner_jan2011.pdf">[PDF]</a></small></h2>
+      </li>
+      <li><a href="https://www.phys.hawaii.edu/%7Ewongandr/"><big>Andrew
+            Wong's Software page</big></a></li>
+      <li><big><b>Thermal Unit Slides: <a
+href="https://docs.google.com/presentation/d/1O9YH9JP5PJWqJZ2jGNO87JP9dQ89fqLhe4AzkbvIL2k/edit?usp=sharing">link</a></b></big></li>
+      <li><big><b>Laser Cutters: <a
+href="https://docs.google.com/presentation/d/1b-VoTblmHaxCMEOFJK59M4cXNcqwU4t4VCorSKJLRAA/edit?usp=sharing">Pricing
+
+              and comparison</a></b></big></li>
+    </ol>
+    <ol>
+    </ol>
+    <hr style="font-family: helvetica,arial,sans-serif;"><span
+      style="font-family: helvetica,arial,sans-serif;"> </span><br
+      style="font-family: helvetica,arial,sans-serif;">
+  </body>
+</html>
